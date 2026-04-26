@@ -1,61 +1,77 @@
-# Titanic Survival Prediction using Supervised Learning
+# 📊 Titanic Survival Prediction using Supervised Learning
 
-## Project Overview
-This project presents an implementation of Supervised Learning (Classification) to predict passenger survival on the Titanic dataset. The model is built using Logistic Regression and follows a structured machine learning pipeline.
+## 📌 Project Overview
 
-## Objectives
-- Understand classification workflow
-- Perform Exploratory Data Analysis (EDA)
-- Handle missing values
-- Build Logistic Regression model
-- Evaluate model performance
+This project presents an implementation of **Supervised Learning (Classification)** to predict passenger survival on the Titanic dataset. The model is built using **Logistic Regression** and follows a structured machine learning pipeline, including data preprocessing, exploratory data analysis, feature engineering, and model evaluation.
 
-## Dataset
-Dataset: titanic.xlsx
+---
 
-Features include:
-- Survived (0 = No, 1 = Yes)
-- Pclass (Ticket class)
-- Sex
-- Age
-- SibSp
-- Parch
-- Fare
-- Embarked
+## 🎯 Objectives
 
-## Libraries
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
+* To understand the workflow of a classification problem in machine learning
+* To perform **Exploratory Data Analysis (EDA)**
+* To handle missing values properly
+* To build a classification model using **Logistic Regression**
+* To evaluate model performance
 
-## Methodology
-1. Data Loading
-2. Exploratory Data Analysis (EDA)
-3. Data Preprocessing
-4. Feature Engineering
-5. Model Building (Logistic Regression)
-6. Model Evaluation
+---
 
-## Evaluation Metrics
-- Confusion Matrix
-- Classification Report (Precision, Recall, F1-score)
+## 📂 Dataset Description
 
-## Results
-The model performs binary classification to predict survival. Performance can be improved with hyperparameter tuning.
+The dataset used is the Titanic dataset.
 
-## Limitations
-- No hyperparameter tuning
-- Limited feature engineering
+### Features:
 
-## Future Work
-- Use advanced models (Random Forest, SVM)
-- Hyperparameter tuning
-- Cross-validation
+* Survived (0 = No, 1 = Yes)
+* Pclass (Passenger class)
+* Sex (Gender)
+* Age
+* SibSp
+* Parch
+* Fare
+* Embarked
 
-## Author
-Created for Machine Learning coursework.
+---
 
-## License
-Educational use only.
+## ⚙️ Technologies & Libraries
+
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* scikit-learn
+
+---
+
+## 🔍 Methodology
+
+### 1. Data Loading
+
+Dataset loaded using pandas.
+
+### 2. Exploratory Data Analysis (EDA)
+
+* Data inspection (`info`, `describe`)
+* Visualization (countplot, histogram, boxplot)
+
+### 3. Data Preprocessing
+
+* Handling missing values
+* Age imputation based on passenger class
+
+### 4. Feature Engineering
+
+* Cleaning and preparing features for modeling
+
+### 5. Model Building
+
+Using **Logistic Regression** from scikit-learn.
+
+### 6. Model Evaluation
+
+* Confusion Matrix
+* Classification Report
+
+
+
+
